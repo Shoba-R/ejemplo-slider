@@ -9,13 +9,16 @@ html {
   *::after {
     box-sizing: inherit;
     padding: 0;
-    margin: 0;
+    margin: 0 ;
   }
   
   body {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .slides-1{
     list-style: none;
@@ -127,7 +130,8 @@ html {
     width:40%;
     height:100%;
     position: absolute;
-    background-color:#ab246c;
+    background:rgb(171, 36, 108);
+    
   }
    .slide-icon3{
     width:40%;
